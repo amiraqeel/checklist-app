@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+body {
+  font-family: 'Grandstander', cursive; 
+  background-color: #ffd571;
+}
+
+.container {
+  margin-top: 2%;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  min-width: 300px;
+  background: #f1f5f8;
+  border: 3px dashed sandybrown;
+  border-radius: 20px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.btn:focus { 
+    outline: none; 
+    box-shadow: none;
+}
+
+.btn:hover {
+  color: red;
+}
+
+input {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+#addBtn {
+  margin-left: 3%;
+}
+
+#addInput {
+  border-bottom: dashed 3px #fdcb6e;
+}
